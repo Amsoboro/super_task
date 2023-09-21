@@ -1,0 +1,38 @@
+footer {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 358px;
+  height: 45px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+footer img {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  margin: 5px 10px 5px 10px;
+}
+.chat {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chat-desc {
+  color: lightgrey;
+}
+.type {
+  background-color: white;
+  width: 300px;
+  height: 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 20px;
+}
