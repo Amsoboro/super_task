@@ -87,25 +87,29 @@
             약속 시간 30분 전에 슬기맘님에게 알림이 울릴 거에요.
           </div>
         </div>
+        <div id="chat-area"></div>
       </main>
 
       <footer>
-        <div class="chat">
+        <form id="chat-form">
           <div>
             <img src="assets/plus.svg" alt="" />
           </div>
-          <div class="type">
-            <div class="chat-desc">메시지를 입력하세요.</div>
-            <div>
-              <img src="assets/smile.svg" alt="" />
-            </div>
-          </div>
-          <div>
+          <input
+            type="text"
+            placeholder="메시지를 입력하세요."
+            id="chat-input"
+          />
+          <button type="submit">
             <img src="assets/plane.svg" alt="" />
-          </div>
+          </button>
+        </form>
+        <div class="emogi">
+          <img src="assets/smile.svg" alt="" />
         </div>
       </footer>
     </div>
     <div class="media-info-msg">화면 크기를 늘려주세요</div>
+    <script src="app.js"></script>
   </body>
 </html>

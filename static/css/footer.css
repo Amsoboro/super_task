@@ -19,22 +19,31 @@ footer img {
   width: 25px;
   margin: 5px 10px 5px 10px;
 }
-.chat {
+#chat-form {
   width: 360px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.chat-desc {
-  color: lightgrey;
-}
-.type {
+#chat-input {
   background-color: white;
-  width: 300px;
+  width: 400px;
   height: 37px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 10px;
   border-radius: 20px;
+  text-align: center;
+  font-size: large;
+}
+button {
+  border: 0px;
+  background-color: lightgray;
+  position: relative;
+  cursor: pointer;
+}
+.emogi {
+  position: relative;
+  right: 100px;
 }
